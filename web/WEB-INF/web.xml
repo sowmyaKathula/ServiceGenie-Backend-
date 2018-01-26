@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<web-app>
+
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>UserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ListServicesServlet</servlet-name>
+        <servlet-class>ListServicesServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ListServicesServlet</servlet-name>
+        <url-pattern>/list</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>RegisterServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubServiceServlet</servlet-name>
+        <servlet-class>SubServiceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SubServiceServlet</servlet-name>
+        <url-pattern>/service</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>CartServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/addtocart</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ClearCartServlet</servlet-name>
+        <servlet-class>ClearCartServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ClearCartServlet</servlet-name>
+        <url-pattern>/clearcart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RequestServiceServlet</servlet-name>
+        <servlet-class>RequestServiceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RequestServiceServlet</servlet-name>
+        <url-pattern>/requestservice</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetRequestServlet</servlet-name>
+        <servlet-class>GetRequestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetRequestServlet</servlet-name>
+        <url-pattern>/orders</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
