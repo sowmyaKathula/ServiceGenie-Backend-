@@ -81,7 +81,7 @@ public class UserServlet extends HttpServlet {
                     while (rs1.next()){
                         JSONObject cart = new JSONObject();
                         cart.put("cat_name",rs1.getString("name"));
-                        cart.put("sub_service_id",rs1.getInt("sub_service_id"));
+                        cart.put("service_id",rs1.getInt("service_id"));
                         cart.put("sub_service_cat_id",rs1.getInt("sub_service_cat_id"));
                         cart.put("user_id",rs1.getInt("user_id"));
                         array.add(cart);

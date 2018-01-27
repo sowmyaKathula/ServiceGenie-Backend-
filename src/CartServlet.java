@@ -22,6 +22,7 @@ public class CartServlet extends HttpServlet {
 
         int cat_id = 0;
         int user_id = 0;
+        int service_id =0;
         StringBuilder sb = new StringBuilder();
         BufferedReader br = request.getReader();
         String str;
@@ -37,6 +38,7 @@ public class CartServlet extends HttpServlet {
             json = (JSONObject) parser.parse(sb.toString());
             cat_id =  Integer.parseInt(json.get("sub_service_cat_id").toString());
             user_id = Integer.parseInt(json.get("userid").toString());
+            service_id= Integer.parseInt(json.get("service_id").toString());
             System.out.println(cat_id +"id " +user_id +"user");
         } catch (ParseException e) {
             e.printStackTrace();
@@ -47,9 +49,10 @@ public class CartServlet extends HttpServlet {
         response.setHeader("Access-Control-Allow-Origin","*");
         Connection conn = DBConnection.createConnection();
         try {
-            stmt = conn.prepareStatement("insert into service_cart(sub_service_cat_id,user_id) values(?,?)");
+            stmt = conn.prepareStatement("insert into service_cart(sub_service_cat_id,user_id,service_id) values(?,?,?)");
             stmt.setInt(1,cat_id);
             stmt.setInt(2,user_id);
+            stmt.setInt(3,service_id);
             stmt.executeUpdate();
             pt.write("Done");
 

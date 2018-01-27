@@ -29,6 +29,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UserServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+              <folding>
+                <marker date="1517038170317" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ClearCartServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClearCartServlet.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,14 +54,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestServiceServlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RequestServiceServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RequestServiceServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="118">
+              <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="40" />
               <folding>
-                <marker date="1515514098771" expanded="true" signature="1929:1996" ph="insert into user_service... " />
-                <marker date="1515514098771" expanded="true" signature="2211:2251" ph="delete from service_cart... " />
+                <marker date="1517037890849" expanded="true" signature="2034:2114" ph="insert into user_service... " />
+                <marker date="1517037890849" expanded="true" signature="2376:2416" ph="delete from service_cart... " />
               </folding>
             </state>
           </provider>
@@ -68,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetRequestServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetRequestServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetRequestServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="61" column="72" lean-forward="true" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="72" />
+            <state relative-caret-position="242">
+              <caret line="62" column="50" lean-forward="true" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
               <folding>
                 <marker date="1516979126701" expanded="true" signature="1875:1917" ph="select * fro... user_service" />
                 <marker date="1516979126701" expanded="true" signature="2236:2252" ph="SELECT name " />
@@ -117,13 +129,13 @@
         <option value="$PROJECT_DIR$/src/ListServicesServlet.java" />
         <option value="$PROJECT_DIR$/src/CustomDatabase.java" />
         <option value="$PROJECT_DIR$/src/SubServiceServlet.java" />
-        <option value="$PROJECT_DIR$/src/UserServlet.java" />
         <option value="$PROJECT_DIR$/src/ClearCartServlet.java" />
         <option value="$PROJECT_DIR$/src/RegisterServlet.java" />
-        <option value="$PROJECT_DIR$/src/RequestServiceServlet.java" />
-        <option value="$PROJECT_DIR$/src/CartServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/GetRequestServlet.java" />
+        <option value="$PROJECT_DIR$/src/CartServlet.java" />
+        <option value="$PROJECT_DIR$/src/RequestServiceServlet.java" />
+        <option value="$PROJECT_DIR$/src/UserServlet.java" />
       </list>
     </option>
   </component>
@@ -373,12 +385,12 @@
       <workItem from="1515680531232" duration="1571000" />
       <workItem from="1516207719905" duration="3137000" />
       <workItem from="1516427655906" duration="3068000" />
-      <workItem from="1516803880696" duration="9657000" />
+      <workItem from="1516803880696" duration="13579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84642000" />
+    <option name="totallyTimeSpent" value="88564000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,7 +403,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="50" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -404,11 +415,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2948929" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40197694" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280303" sideWeight="0.41517857" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3272727" sideWeight="0.41517857" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31742424" sideWeight="0.5848214" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -465,14 +476,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/UserServlet.java</url>
-          <line>82</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -504,7 +508,7 @@
         <state relative-caret-position="420">
           <caret line="41" column="9" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
           <folding>
-            <marker date="1514914380587" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
+            <marker date="1517038170317" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
           </folding>
         </state>
       </provider>
@@ -543,7 +547,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514914380587" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
+            <marker date="1517038170317" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
           </folding>
         </state>
       </provider>
@@ -568,7 +572,7 @@
         <state relative-caret-position="300">
           <caret line="28" column="0" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1514914380587" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
+            <marker date="1517038170317" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
           </folding>
         </state>
       </provider>
@@ -614,7 +618,7 @@
         <state relative-caret-position="300">
           <caret line="28" column="0" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1514914380587" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
+            <marker date="1517038170317" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
           </folding>
         </state>
       </provider>
@@ -646,7 +650,7 @@
         <state relative-caret-position="300">
           <caret line="28" column="0" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1514914380587" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
+            <marker date="1517038170317" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
           </folding>
         </state>
       </provider>
@@ -685,7 +689,7 @@
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1514914380587" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
+            <marker date="1517038170317" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
           </folding>
         </state>
       </provider>
@@ -702,7 +706,7 @@
         <state relative-caret-position="300">
           <caret line="28" column="0" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1514914380587" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
+            <marker date="1517038170317" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
           </folding>
         </state>
       </provider>
@@ -734,7 +738,7 @@
         <state relative-caret-position="300">
           <caret line="28" column="0" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1514914380587" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
+            <marker date="1517038170317" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
           </folding>
         </state>
       </provider>
@@ -805,37 +809,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GetRequests.java" />
-    <entry file="file://$PROJECT_DIR$/src/RequestServiceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <marker date="1515514098771" expanded="true" signature="1929:1996" ph="insert into user_service... " />
-            <marker date="1515514098771" expanded="true" signature="2211:2251" ph="delete from service_cart... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding>
-            <marker date="1514911720346" expanded="true" signature="1864:1928" ph="insert into service_cart... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
-          <folding>
-            <marker date="1514914380587" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ClearCartServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -874,15 +847,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding>
+            <marker date="1517036046115" expanded="true" signature="1968:2045" ph="insert into service_cart... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GetRequestServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="61" column="72" lean-forward="true" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="72" />
+        <state relative-caret-position="242">
+          <caret line="62" column="50" lean-forward="true" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
           <folding>
             <marker date="1516979126701" expanded="true" signature="1875:1917" ph="select * fro... user_service" />
             <marker date="1516979126701" expanded="true" signature="2236:2252" ph="SELECT name " />
             <marker date="1516979126701" expanded="true" signature="2236:2268" ph="SELECT name subservices_cat" />
             <marker date="1516979126701" expanded="true" signature="2236:2295" ph="SELECT name subservices_cat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+          <folding>
+            <marker date="1517038170317" expanded="true" signature="3001:3152" ph="SELECT * FRO... service_cart" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequestServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="40" />
+          <folding>
+            <marker date="1517037890849" expanded="true" signature="2034:2114" ph="insert into user_service... " />
+            <marker date="1517037890849" expanded="true" signature="2376:2416" ph="delete from service_cart... " />
           </folding>
         </state>
       </provider>
